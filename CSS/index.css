@@ -1,0 +1,258 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #333 !important;
+}
+.top{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.top-pic{
+  width: 50%;
+}
+.t-pic{
+  height: 100%;
+  width: 100%;
+}
+.top-name{
+  width: 50%;
+  background-color: #ffbd59;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10% 50px;
+}
+.nm{
+  /* transform: rotate(270deg); */
+  font-family: Cookie;
+}
+#book{
+  font-size: 600%;
+  margin-bottom: 1px;
+}
+#warmth{
+  margin-top: 0;
+  font-size: 400%;
+}
+.logo{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#logo{
+  /* height: 5%; */
+  width: 20%;
+  min-width: 50px;
+  /* height: auto; */
+}
+.download{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.dbtn{
+  width: 280px;
+  height: 50px;
+  background-image: linear-gradient(45deg, #ffbd59, #ff5959);
+  color: black;
+  font-family: 'Poiret One' !important;
+  font-weight: bold;
+  border-radius: 20px !important;
+}
+.dbtn:hover{
+  background-image: linear-gradient(45deg, #ff5959, #ffbd59);
+  color: white;
+  font-family: 'Poiret One' !important;
+  font-weight: bolder;
+}
+.gb{
+  padding: 50px 25px;
+  color: Beige;
+  display: flex;
+  font-family: 'Poiret One';
+
+}
+.goal{
+  width: 40%;
+  padding: 0 25px;
+  font-size: 1.2rem;
+}
+#gl{
+  font-family: Aclonica;
+}
+.benefits{
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+hr {
+  border-style: none;
+  border-top: groove !important;
+  border-color: ghostwhite;
+  border-width: 5px;
+  width: 5%;
+  margin: 20px auto !important;
+}
+.benefit{
+  display: flex;
+}
+.h{
+  width: 20%;
+  font-weight: bold;
+  font-family: Aclonica;
+  font-size: 1rem !important;
+}
+.bo{
+  padding: 20px;
+}
+.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.memberships{
+  height: 30%;
+  background-image: radial-gradient( farthest-corner at 100% 50%, #adfe02 0%, #eafe02 25%, white 75%, white 100% );
+  /* background-image: radial-gradient(#adfe02, #eafe02, #f8feac, white 75%); */
+  display: flex;
+  justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10%;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.memberships-button{
+  width: 300px;
+  height: 50px;
+  margin: 10px 0;
+  font-family: Oswald;
+}
+#signupbutton{
+  background-color: #eafe02;
+  color: black;
+}
+#signupbutton:hover{
+  background-color: #abb629;
+  color: white;
+}
+#freebutton{
+background-color: #adfe02;
+color: black;
+}
+#freebutton:hover{
+background-color: #9bdd0f;
+color: black;
+}
+#loginbutton{
+background-color: black;
+color: white;
+}
+#loginbutton:hover{
+background-color: white;
+color: black;
+}
+.dear-reader{
+  width: 50%;
+  padding: 25px 25px 25px 50px;
+  font-family: 'Bad Script';
+}
+.drh{
+  font-family: Aclonica;
+}
+.drt{
+  font-size: 1.2rem;
+}
+.footer{
+  width: 100%;
+  height: auto;
+}
+.textbox{
+  width: 60%;
+}
+.cat{
+    opacity: 0.1;
+    width: 20px;
+    height: auto;
+    position: absolute;
+    left: 20%;
+  top: 100px;
+}
+.cat:hover{
+  opacity: 1.0;
+  width: 50px;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+.top{
+  display: flex;
+  flex-direction: column;
+}
+.top-pic{
+  width: 100%;
+  max-height: 20%;
+  /* height: 50%; */
+  margin-bottom: 0;
+}
+.nm{
+  font-family: Cookie;
+}
+.top-name{
+  width: 100%;
+  background-color: #ffbd59;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 5px;
+}
+.dbtn{
+  width: 60%;
+}
+.gb{
+  flex-direction: column;
+}
+.goal{
+  width: 100%;
+}
+.benefit{
+  flex-direction: column;
+}
+.h{
+  width: 100%;
+}
+.card{
+  width: 200px !important;
+}
+.card-img-top{
+
+  /* width: 100 !important; */
+  height: auto;
+
+}
+.memberships{
+  flex-direction: column-reverse;
+}
+.btns{
+  width: 100%;
+}
+.dear-reader{
+  width: 100%;
+}
+.memberships-button{
+  max-width: 60%;
+}
+}

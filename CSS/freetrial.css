@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #333 !important;
+  color: Beige;
+}
+
+.top{
+  height: 10%;
+  padding: 25px;
+  /* align-content: center; */
+}
+.top-text{
+  width: 90%;
+  font-family: 'Glass Antiqua';
+  font-size: 2.5rem;
+  color: Beige;
+  text-align: center;
+  margin: 0 5%;
+  /* font-size-adjust: auto; */
+}
+
+.form-b{
+  width: 100%;
+}
+.form-box{
+  width: 80%;
+  align-content: center;
+  margin: 50px auto;
+  /* border: Ivory dashed thick; */
+  padding: 5%;
+  /* border-width: thick;
+  border-color: ghostwhite;*/
+  /* border-radius: 20px 50px; */
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+}
+.field{
+  display: flex;
+  flex-direction: column;
+
+}
+label{
+  align-self: center;
+  padding: 2px 0;
+  margin: 5px 10px;
+  font-family: 'Bad script';
+  font-size: 1.2rem;
+}
+input{
+  align-self: center;
+  width: 60%;
+  padding: 5px 2px;
+  margin: 5px 10px;
+  height: 20px;
+  background-color: azure;
+  border-radius: 5px;
+  border-style: dashed;
+}
+input[type=submit] {
+  width: 30%;
+  background-color: MediumSeaGreen;
+  color: white;
+  padding: 5px 0px;
+  /* margin: 8px 0; */
+  margin-top: 20px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: green;
+}
+
+.bottom{
+  padding: 50px;
+
+}
+.bottom-text{
+  width: 90%;
+  font-family: 'Bad Script';
+  font-size: 1.2rem;
+  color: Beige;
+  text-align: center;
+  margin: 0 5%;
+}
+
+@media screen and (max-width: 480px){
+  .top-text{
+    font-size: 1.5rem;
+  }
+}
